@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "363250084613",
+    "firebase_url": "https://avisosubicacion.firebaseio.com",
+    "project_id": "avisosubicacion",
+    "storage_bucket": "avisosubicacion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363250084613:android:503793c27d2fdaf9",
+        "android_client_info": {
+          "package_name": "com.alesqui.avisosUbicacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363250084613-gugfvn34nuvm12qiuffunmcca510ie58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0PfCcRxH103dlwlQT64F4mAGZ7fkEhxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

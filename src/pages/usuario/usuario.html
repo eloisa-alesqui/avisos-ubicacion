@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Detalles del usuario
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img [src]="usuario.foto"/>
+    <ion-card-content>
+      <ion-card-title>
+        Bienvenido {{usuario.nombre}}!
+        </ion-card-title>
+      <p>
+        Tu email es: {{usuario.email}}
+      </p>
+      <p>
+        Tu estás en {{usuario.coordenadas.latitud}}, {{usuario.coordenadas.longitud}}
+      </p>
+      <ion-list>
+        <ion-item *ngFor="let log of logs">
+          {{ log }}
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  <ion-row>
+    <ion-col>
+      <button ion-button block (click)="doGoogleLogout()">Logout</button>
+    </ion-col>
+  </ion-row>
+
+</ion-content>
